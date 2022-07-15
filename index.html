@@ -13,14 +13,15 @@
 
     <!-- Row 1 Navbar-->
         <div class="row">
-            <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+            <nav class="navbar navbar-expand-lg bg-black navbar-dark p-3 pb-5 ">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Griot Theatre</a>
+                    <a class="navbar-brand fs-4" href="#">Griot Theatre</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                  <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav gap-3 me-5">
+                        <!-- I can't figure out how to change the color of the links to white -->
                       <a class="nav-link" href="#">Home</a>
                       <a class="nav-link" href="#">Features</a>
                       <a class="nav-link" href="#">Our Actors</a>
@@ -29,11 +30,19 @@
                     </div>
                   </div>
                 </div>
-              </nav>
+            </nav>
         </div>
 
     <!-- Row 2 Header -->
-        <div class="row">Header</div>
+    <!-- I can't figure out how to get rid of the space between row 1 and 2 tried to look up but couldn't find the answer-->
+        <div class="row">
+            <div class="card text-white p-0">
+                <img src="/images/theater-image-background.png" class="img-fluid" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title ">Featured Shows</h5>
+                </div>
+              </div>
+        </div>
 
     <!-- Row 3 Main Content -->
         <div class="row">Main content</div>
